@@ -1,0 +1,10 @@
+{
+  "port": 8001,
+  "repositories":
+  [{
+    "url": "https://github.com/nonbeing/github-auto-deploy-poc",
+    "path": "/srv/projects/github-auto-deploy-poc/",
+    "deploy": "bash /home/auto-deployer/deploy.sh",
+    "branch": "refs/heads/master"
+  }]
+}
