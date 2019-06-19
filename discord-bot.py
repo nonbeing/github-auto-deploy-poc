@@ -15,5 +15,7 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
+    if message.content.startswith('ping'):
+        await message.channel.send('pong!')
 
 client.run('NTkwMTIwNzA5MjI5OTAzODcy.XQdnMQ.2iqb6oRpUSRj6pmwbl4eAqjrm_Q')
